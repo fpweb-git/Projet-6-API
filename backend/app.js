@@ -8,7 +8,7 @@ const app = express();
 
 mongoose
 	.connect(
-		"mongodb+srv://fpadmin:mongofpadmin17@cluster0.yzabl.mongodb.net/projet6?retryWrites=true&w=majority",
+		"",
 		{ useNewUrlParser: true, useUnifiedTopology: true }
 	)
 	.then(() => console.log("Connexion à MongoDB réussie !"))
